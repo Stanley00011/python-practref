@@ -41,8 +41,8 @@ it_companies.insert(3, 'AWS')
 print(f'this are it_companies {it_companies}')
 
 # # Change one of the it_companies names to uppercase (IBM excluded!)
-# it_companies.upper()
-# print(f'this are it_companies {it_companies}')
+it_companies[1] = it_companies[1].upper()
+print(f'this are it_companies {it_companies}')
 
 #Join the it_companies with a string '#;  '
 join_it_companies = '# '.join(it_companies)
@@ -117,11 +117,27 @@ print(full_stack)
 students_ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 # Sort the list and find the min and max age
+print(sorted(students_ages))
+min_age = min(students_ages)
+max_age = max(students_ages)
+print(f'min age is {min_age} and max age is {max_age}')
 
 # Add the min age and the max age again to the list
+students_ages.append(min_age)
+students_ages.append(max_age)
+print(students_ages)
 
 # Find the median age (one middle item or two middle items divided by two)
+students_ages.sort()
 
+length = len(students_ages)
+if length % 2 == 0:
+    median_age = (students_ages[length // 2 - 1] + students_ages[length // 2]) / 2
+    print(f"List length is EVEN ({length}). Median value is {median_age}.")
+else:
+    median_age = students_ages[length // 2]
+    print(f"List length is ODD ({length}). Median value is {median_age}.")
+    
 # Find the average age (sum of all items divided by their number )
 
 # Find the range of the ages (max minus min)
