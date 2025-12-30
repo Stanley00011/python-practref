@@ -92,7 +92,7 @@ else:
     print(fruits)
 
 # Here we have a person dictionary. Feel free to modify it!
-    person={
+person = {
     'first_name': 'Jay',
     'last_name': 'Doe',
     'age': 25,
