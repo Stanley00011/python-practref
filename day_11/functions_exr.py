@@ -275,3 +275,11 @@ def most_populated_countries(n):
     return sorted_countries[:n]
 print('10 most populated countries:', most_populated_countries(10))
 
+# full name funtion
+def full_name (first_name, last_name):
+    return f"{first_name} {last_name}"
+what_is_your_first_name = input("Enter your first name: ")
+what_is_your_last_name = input("Enter your last name: ")
+print('Full name:', full_name(what_is_your_first_name, what_is_your_last_name))
+
+
