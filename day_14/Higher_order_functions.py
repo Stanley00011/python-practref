@@ -214,8 +214,7 @@ print(list(long_names))         # ['Asabeneh']
 
 """
 Python - Reduce Function
-The reduce() function is defined in the functools module and we should import it from this module. 
-Like map and filter it takes two parameters, a function and an iterable.
+The reduce() function is defined in the functools module and we should import it from this module. Like map and filter it takes two parameters, a function and an iterable.
 However, it does not return another iterable, instead it returns a single value. Example:1
 """
 
