@@ -147,6 +147,6 @@ my_account.add_expense("Groceries", 400)
 
 print(my_account.account_info())
 
-class Products:
+class Product:
     pass
 
