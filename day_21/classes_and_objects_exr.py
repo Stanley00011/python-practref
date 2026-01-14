@@ -137,6 +137,7 @@ class PersonAccount:
         info += f"Current Balance: {self.account_balance()}\n"
         info += "--------------------------------------"
         return info
+    
 #usage 
 my_account = PersonAccount("John", "Doe")
 my_account.add_income("Salary", 5000)
@@ -145,3 +146,6 @@ my_account.add_expense("Rent", 1500)
 my_account.add_expense("Groceries", 400)
 
 print(my_account.account_info())
+
+class Products:
+    pass
