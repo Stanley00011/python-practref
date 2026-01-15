@@ -1,0 +1,42 @@
+[
+    {
+        "dataset_name": "Iris",
+        "url": "https://archive.ics.uci.edu/dataset/53/iris"
+    },
+    {
+        "dataset_name": "Heart Disease",
+        "url": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+        "dataset_name": "Wine Quality",
+        "url": "https://archive.ics.uci.edu/dataset/186/wine+quality"
+    },
+    {
+        "dataset_name": "Breast Cancer Wisconsin (Diagnostic)",
+        "url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic"
+    },
+    {
+        "dataset_name": "Bank Marketing",
+        "url": "https://archive.ics.uci.edu/dataset/222/bank+marketing"
+    },
+    {
+        "dataset_name": "Adult",
+        "url": "https://archive.ics.uci.edu/dataset/2/adult"
+    },
+    {
+        "dataset_name": "Student Performance",
+        "url": "https://archive.ics.uci.edu/dataset/320/student+performance"
+    },
+    {
+        "dataset_name": "Online Retail",
+        "url": "https://archive.ics.uci.edu/dataset/352/online+retail"
+    },
+    {
+        "dataset_name": "Wine",
+        "url": "https://archive.ics.uci.edu/dataset/109/wine"
+    },
+    {
+        "dataset_name": "Car Evaluation",
+        "url": "https://archive.ics.uci.edu/dataset/19/car+evaluation"
+    }
+]
