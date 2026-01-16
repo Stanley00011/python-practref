@@ -1,3 +1,8 @@
-git rm -r --cached flask_project/
-git rm -r --cached flask_project/nfpv/
+flask_project/
+bin/
+lib/
+include/
 pyvenv.cfg
+*.pyc
+__pycache__/
+.env
